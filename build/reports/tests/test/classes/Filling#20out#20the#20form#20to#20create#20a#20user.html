@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Filling out the form to create a user</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Filling out the form to create a user</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Filling out the form to create a user</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">36.855s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Create user successfully"></a>
+<h3 class="failures">Create user successfully</h3>
+<span class="code">
+<pre>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1149)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$grWnVNGa.performAs$accessor$S7TlMpIq(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$grWnVNGa.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at tasks.Task_LlenadoFormulario.performAs(Task_LlenadoFormulario.java:49)
+	at tasks.Task_LlenadoFormulario$ByteBuddy$z0f90X3C.performAs$accessor$jDhua0AA(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at tasks.Task_LlenadoFormulario$ByteBuddy$z0f90X3C.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at co.com.choucair.certification.utest.stepdefinitions.ChoucairAcademyStepDefinitions.youCanFillTheLoginFieldsForTheStartOfSession(ChoucairAcademyStepDefinitions.java:35)
+	at ✽.you can fill the login fields for the start of session(src/test/resources/features/academyChoucair.feature:8)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.linkText: Log In to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1146)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$grWnVNGa.performAs$accessor$S7TlMpIq(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$grWnVNGa.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at tasks.Task_LlenadoFormulario.performAs(Task_LlenadoFormulario.java:49)
+	at tasks.Task_LlenadoFormulario$ByteBuddy$z0f90X3C.performAs$accessor$jDhua0AA(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at tasks.Task_LlenadoFormulario$ByteBuddy$z0f90X3C.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at co.com.choucair.certification.utest.stepdefinitions.ChoucairAcademyStepDefinitions.youCanFillTheLoginFieldsForTheStartOfSession(ChoucairAcademyStepDefinitions.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:31)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:25)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log In&quot;}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RYZEN5-6700XT', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\SERGIO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 746c5316e40faab0fcdabf974006dba8
+*** Element info: {Using=link text, value=Log In}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 99 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Create user successfully</td>
+<td class="failures">36.855s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7ce9a337
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3ebb5008
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2c1f43a2
+ago 26, 2023 9:36:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}) on port 4559
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago 26, 2023 9:36:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73032ea3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@14527972
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@48ef67e1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7270aa87
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@ec3a730
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@15523a34
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@189a8ee7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@610d812e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@63f09f82
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4dd54098
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@66ab97a1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@748120af
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@38c20eb2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73b49157
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6644e75f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@35743d53
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7f1a7bd0
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3c9c50ff
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5f4c74ec
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@33e2464b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@72e9389
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@30fa068
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@353bdfa8
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@29682460
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2923ad72
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@65ad327
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@be04b10
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6c65e99a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@378ac553
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 2]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@23fdeec2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 2, Sergio clicks on campo de seleccion 2]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73663ac5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 2, Sergio clicks on campo de seleccion 2, Sergio clicks on Clic en boton completar registro]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3fe3ac67
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 2, Sergio clicks on campo de seleccion 2, Sergio clicks on Clic en boton completar registro, Sergio clicks on Clic en boton Unete Hoy creacion usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 2, Sergio clicks on campo de seleccion 2, Sergio clicks on Clic en boton completar registro, Sergio clicks on Clic en boton Unete Hoy creacion usuario]]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Create user successfully:Given correctly the information in the alphanumeric fields [Sergio task open chrome [Sergio opens the User int open chrome]], When Click on the Sign in button [Sergio task login [Sergio clicks on Boton para ingreso]], Then you can fill the login fields for the start of session [Sergio task llenado formulario [Sergio clicks on Nombre del usuario, Sergio enters 'SergioSergioSergio' into Nombre del usuario, Sergio enters 'Salas' into Apellidos del usuario, Sergio enters 'Sergio9999@gmail.com' into Correo electronico del usuario, Sergio clicks on Fecha de nacimiento: Mes, Sergio enters 'July' into By.name: birthMonth, Sergio clicks on Fecha de nacimiento: Dia, Sergio enters '9' into By.name: birthDay, Sergio clicks on Fecha de nacimiento: AÃ±o, Sergio enters '2000' into By.name: birthYear, Sergio clicks on AÃ±adir idiomas hablados, Sergio enters 'spa' into By.cssSelector: input.ui-select-search, Sergio clicks on AÃ±adir idiomas hablados, Sergio clicks on Boton ir a ubicacion, Sergio enters 'Bogot' into Ciudad del usuario, Sergio clicks on Seleccion ciudad del usuario, Sergio enters '50001' into Codigo postal del usuario, Sergio clicks on Clic en boton ir a Dispositivos, Sergio clicks on Clic en boton ir a ultimos pasos, Sergio enters 'FxhDJvkZqT8KfPB' into ContraseÃ±a, Sergio enters 'FxhDJvkZqT8KfPB' into Confirmar contraseÃ±a, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 1, Sergio clicks on campo de seleccion 2, Sergio clicks on campo de seleccion 2, Sergio clicks on Clic en boton completar registro, Sergio clicks on Clic en boton Unete Hoy creacion usuario]]]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Create user successfully
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Sergio clicks on Clic en boton Unete Hoy creacion usuario
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected enabled element was not enabled
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 26/08/2023 09:37:04 PM</p>
+</div>
+</div>
+</body>
+</html>
